@@ -1,0 +1,22 @@
+{
+    "sections": [
+        {
+            "displayname": "Section #1",
+            "fields": [
+                "Title",
+                "Category",
+                "Progress",
+                "Priority"
+            ]
+        },
+        {
+            "displayname": "Section #2",
+            "fields": [
+                "StartDate",
+                "DueDate",
+                "AssignedTo",
+                "Attachments"
+            ]
+        }
+    ]
+}
