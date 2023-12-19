@@ -1,0 +1,10 @@
+{
+  "commandBarProps" : {
+    "commands": [
+      {
+        "key": "addShortcut",
+        "hide": true
+      }
+    ]
+  }
+}
