@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "commandBarProps": {
+    "commands": [
+      {
+        "key": "sync",
+        "text": "Don't do it...",
+        "title": "Don't do it..."
+      }
+    ]
+  }
+}
