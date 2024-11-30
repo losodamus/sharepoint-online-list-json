@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+      {
+          "elmType": "span",
+          "style": {
+              "padding-right": "8px"
+          },
+          "txtContent": "@currentField"
+      },
+      {
+          "elmType": "a",
+          "style": {
+              "text-decoration": "none"
+          },
+          "attributes": {
+              "iconName": "PowerApps",
+              "class": "sp-field-quickActions",
+              "target": "_blank",
+              "title": "Click here for canvas app...",
+              "href": {
+                  "operator": "+",
+                  "operands": [
+                      "https://apps.powerapps.com/",
+                      "play/",
+                      "e/",
+                      "ty32sa0p-708a3f4a-a6e6-4907-8p36-0913f4733f49/",
+                      "a/",
+                      "a9ca0c79-d08a-450f-c623-6e4f01d2de88",
+                      "?tenantId=",
+                      "458a3f4a-a6e6-4907-8c36-0913f4730f41",
+                      "&dealId=",
+                      "[$ID]"
+                  ]
+              }
+          }
+      }
+  ]
+}
